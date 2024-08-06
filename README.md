@@ -76,11 +76,16 @@ The project includes various visualizations to understand the data and results:
 ![download (1)](https://github.com/user-attachments/assets/f1df9719-ea95-4ec7-965c-0cf75e29277c)
 
 ## Results
-The results of the sentiment analysis and classification are displayed in the notebook. Key results include:
+The results of the sentiment analysis and classification are displayed in the notebook.
+
 The logistic regression model used for sentiment classification achieved the following performance metrics:
+
 Accuracy: 84.67%
+
 Precision: 0.8489424433054571
+
 Recall: 0.8466527803411817
+
 F1 Score: 0.846699868369603
 
 ## Contributing
