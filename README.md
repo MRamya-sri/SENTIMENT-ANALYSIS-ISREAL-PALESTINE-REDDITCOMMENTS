@@ -2,19 +2,30 @@
 ## Sentiment Analysis of Israel and Palestine Reddit Comments on the Internet
 ## Table of Contents
 [Introduction]
+
 [Features]
+
 [Installation]
+
 [Usage]
+
 [Data Preprocessing]
+
 [Sentiment Analysis]
+
 [Visualizations]
+
 [Results]
+
 [Contributing]
+
 [License]
-[Contact]
+
 
 ## Introduction
 This project performs sentiment analysis on Reddit comments related to the Israel-Palestine conflict. The goal is to analyze the sentiments expressed in these comments and categorize them as positive, negative, or neutral. The project involves data preprocessing, sentiment analysis using TextBlob, and visualizations to understand the sentiment distribution.
+This project performs sentiment analysis on Reddit comments related to the Israel-Palestine conflict. The goal is to analyze the sentiments expressed in these comments and categorize them as positive, negative, or neutral. The project includes data preprocessing, sentiment analysis using TextBlob, and visualizations to provide insights into the sentiment distribution.
+The sentiment analysis is followed by a classification step where a logistic regression model is trained to classify the sentiment of the comments. The model's performance metrics indicate the effectiveness of the sentiment classification process.
 
 ## Features
 1.Data cleaning and preprocessing
@@ -28,26 +39,27 @@ This project performs sentiment analysis on Reddit comments related to the Israe
 ## Data Preprocessing
 The data preprocessing steps include:
 
-  ->Removing duplicates and null values
+  -> Removing duplicates and null values
   
-  ->Converting text to lowercase and removing punctuation
+  -> Converting text to lowercase and removing punctuation
   
-  ->Tokenization, stopword removal, and lemmatization
+  -> Tokenization, stopword removal, and lemmatization
   
-  ->Removing emojis and extra whitespace
+  -> Removing emojis and extra whitespace
   
 ## Sentiment Analysis
 The sentiment analysis process involves:
 
-  ->Using TextBlob to calculate sentiment polarity
+  -> Using TextBlob to calculate sentiment polarity
   
-  ->Categorizing sentiment polarity into positive, negative, and neutral
+  -> Categorizing sentiment polarity into positive, negative, and neutral
   
-  ->Creating a numeric representation of sentiment for classification
+  -> Creating a numeric representation of sentiment for classification
 
   
 ## Visualizations
 The project includes various visualizations to understand the data and results:
+
   1. Distribution of comments across different subreddits
   
   2. Pie charts and count plots for sentiment categories
@@ -65,10 +77,11 @@ The project includes various visualizations to understand the data and results:
 
 ## Results
 The results of the sentiment analysis and classification are displayed in the notebook. Key results include:
-
-Sentiment category distribution
-Correlation between sentiment and other features
-Accuracy, precision, recall, and F1 score of the sentiment classifier
+The logistic regression model used for sentiment classification achieved the following performance metrics:
+Accuracy: 84.67%
+Precision: (add precision value here)
+Recall: (add recall value here)
+F1 Score: (add F1 score here)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
