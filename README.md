@@ -1,5 +1,5 @@
 # SENTIMENT-ANALYSIS-ISREAL-PALESTINE-REDDITCOMMENTS
-## Sentiment Analysis of Israel and Palestine Reddit Comments on the Internet
+
 ## Table of Contents
 [Introduction]
 
@@ -79,9 +79,9 @@ The project includes various visualizations to understand the data and results:
 The results of the sentiment analysis and classification are displayed in the notebook. Key results include:
 The logistic regression model used for sentiment classification achieved the following performance metrics:
 Accuracy: 84.67%
-Precision: (add precision value here)
-Recall: (add recall value here)
-F1 Score: (add F1 score here)
+Precision: 0.8489424433054571
+Recall: 0.8466527803411817
+F1 Score: 0.846699868369603
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
